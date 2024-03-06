@@ -15,4 +15,19 @@ body{
     background: #fafafa;
     }
 
+.wrapper{
+    padding: 30px;
+    background: #ffff;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
 
+.wrapper header{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.wrapper .poll-area{
+    margin: 20px 0 15px 0;
+}
