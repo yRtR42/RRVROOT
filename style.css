@@ -31,3 +31,12 @@ body{
 .wrapper .poll-area{
     margin: 20px 0 15px 0;
 }
+
+.poll-area label{
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    border: 2px solid #e6e6e6;
+}
+
+label .row
