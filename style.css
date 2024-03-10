@@ -86,8 +86,15 @@ label .row span{
 }
 
 label .row .percent{
-    display: nnone;
+    display: none;
 }
 
 label .progress{
+    height: 7px;
+    width: 100%;
+    position: relative;
+    background: #f0f0f0;
+    margin: 8px 0 3px 0;
+    display: none;
+    pointer-events: none;
     
