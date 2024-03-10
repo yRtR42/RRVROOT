@@ -97,4 +97,19 @@ label .progress{
     margin: 8px 0 3px 0;
     display: none;
     pointer-events: none;
-    
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    display: none;
+}
+
+label .progress:after{
+    position: absolute;
+    content: "";
+    height: 100%
+    background: #ccc;
+    width: calc(1% * var(--w));
+    border-radius: inherit;
+    transition: all 0.2s ease;
+}
