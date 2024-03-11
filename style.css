@@ -88,6 +88,22 @@ label.Custom robo.selected .row .circle{
     order-color: #01638c;
 }
 
+label.Pokemon red .row .circle::after{
+    background: #cf2d00;
+}
+
+label.DBZ Budokai 2 .row .circle::after{
+    background: #4bcc00;
+}
+
+label.Yu-Gi-Oh FMR .row .circle::after{
+    background: #cfbd00;
+}
+
+label.Custom robo .row .circle::after{
+    background: #01638c;
+}
+
 label .row{
     display: flex;
     pointer-events: none;
