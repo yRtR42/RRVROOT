@@ -72,6 +72,22 @@ div#pstyle1::after{
     background: #01638c;
 }
 
+label.Pokemon red.selected .row .circle{
+    order-color: #cf2d00;
+}
+
+label.DBZ Budokai 2.selected .row .circle{
+    order-color: #4bcc00;
+}
+
+label.Yu-Gi-Oh FMR.selected .row .circle{
+    order-color: #cfbd00;
+}
+
+label.Custom robo.selected .row .circle{
+    order-color: #01638c;
+}
+
 label .row{
     display: flex;
     pointer-events: none;
