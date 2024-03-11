@@ -40,20 +40,36 @@ body{
     transition: all 0.2s ease;
 }
 
-label.opt-1.selected{
+label.Pokemon red.selected{
     border: 2px solid #cf2d00;
 }
 
-label.opt-1.selected{
-    border: 2px solid #cf2d00;
+label.DBZ Budokai 2.selected{
+    border: 2px solid #4bcc00;
 }
 
-label.opt-1.selected{
-    border: 2px solid #cf2d00;
+label.Yu-Gi-Oh FMR.selected{
+    border: 2px solid #cfbd00;
 }
 
-label.opt-1.selected{
-    border: 2px solid #cf2d00;
+label.Custom Robo.selected{
+    border: 2px solid #01638c;
+}
+
+div#pstyle1::after{
+    background: #cf2d00;
+}
+
+div#pstyle1::after{
+    background: #4bcc00;
+}
+
+div#pstyle1::after{
+    background: #cfbd00;
+}
+
+div#pstyle1::after{
+    background: #01638c;
 }
 
 label .row{
